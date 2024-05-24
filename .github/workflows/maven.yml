@@ -24,7 +24,7 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v3 # instalar java no ubuntu 
       with:
-        java-version: '17' # versão do java
+        java-version: '19' # versão do java
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
